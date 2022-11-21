@@ -354,11 +354,11 @@ figcaption {
         width: 50%;
         height: 380px;
         background-color: var(--primary-color);
-        transform: translateX(-100%);
         transition: all .4s linear;
+        transform: translate(-100%); 
     }
     .show-sidebar{
-        transform: translateX(0);
+        transform: translate(0);
     }
 
     .navbar .navbar-nav li {

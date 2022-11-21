@@ -3,10 +3,10 @@ const closeBtn = document.querySelector('.close-btn');
 const sidebar = document.querySelector('.navbar-nav');
 
 toggleBtn.addEventListener('click', ()=>{
-    console.log('clicked')
-    sidebar.classList.add('show-sidebar')
+    console.log('added')
+    sidebar.setAttribute('style', "transform:translate(0)")
 })
 closeBtn.addEventListener('click', ()=>{
-    console.log('clicked')
-    sidebar.classList.remove('show-sidebar')
+    console.log('removed')
+    sidebar.removeAttribute('style', "transform:translate(0)")
 })
