@@ -358,7 +358,7 @@ figcaption {
         bottom: 0;
         left: 0px;
         width: 50%;
-        height: 50vh;
+        height: 30vh;
         background-color: var(--primary-color);
         transition: all .4s linear;
         transform: translate(-100%); 
